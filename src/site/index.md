@@ -20,6 +20,26 @@ Take a look at [the code on GitHub]({{ pkg.repository.url }}), or read on, for m
 {%- endfor -%}
 </section >
 
+{% set somePhotos = [
+  {url: "albums-global-8000-exterior-1.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "albums-global-8000-interior-1_0.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "albums-global-8000-interior-2_0.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "albums-global-8000-interior-4_0.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Banking Bombardier Logo.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Entertaniment Suite Credenza.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Kitchen Looking Aft.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Principal Suite Bed Night.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Takeoff London City.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"},
+  {url: "Global 8000 Tarmac.jpg", credit: "NA", creditURL: "https://bombardier.com/en/aircraft/global-8000"}
+] %}
+<section class="post-teaser">
+{%- for photo in somePhotos %}
+  <div class="credit">By <a href="{{ photo.creditURL }}" target="_BLANK" rel="noopener"> {{ photo.credit }}</a>, (<a href="/images/original/{{ photo.url }}" target="_BLANK" rel="noopener">Original</a>)</div>
+  {% lazypicture photo.url, "Attack of the Global 8000" %}
+{%- endfor -%}
+</section >
+
+
 
 
 
