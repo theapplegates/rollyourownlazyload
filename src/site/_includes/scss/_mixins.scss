@@ -1,11 +1,23 @@
 @mixin bp($point) {
-  @if $point == narrow {
-    @media #{$bp-narrow} { @content; }
+  @if $point == mouse {
+	@media #{$bp-mouse} { @content; }
   }
-  @else if $point == mid {
-    @media #{$bp-mid} { @content; }
+  @else if $point == camping {
+	@media #{$bp-camping} { @content; }
   }
-  @else if $point == wide {
-    @media #{$bp-wide}  { @content; }
+  @else if $point == car {
+	@media #{$bp-car} { @content; }
+  }
+  @else if $point == bird {
+	@media #{$bp-bird} { @content; }
+  }
+  @else if $point == mars {
+	@media #{$bp-mars} { @content; }
+  }
+  @else if $point == red {
+	@media #{$bp-red} { @content; }
+  }
+  @else if $point == wow {
+	@media #{$bp-wow} { @content; }
   }
 }

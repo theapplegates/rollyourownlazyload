@@ -1,4 +1,3 @@
-
 // Make it simple to swap parts of a URL attribute on an element
 function updateAttributeURL(element, attr, swapOut, swapIn) {
   var url = element.getAttribute(attr);
@@ -6,13 +5,12 @@ function updateAttributeURL(element, attr, swapOut, swapIn) {
   element.setAttribute(attr, url);
 }
 
-
 // Update the image source on elements in the picture element
 function loadImage(picture) {
 
   var sources = picture.children;
   var loadingPath = "images/tiny";
-  var sizes = ["large","medium","small"];
+  var sizes = ["wow", "red", "mars", "bird", "car", "camping", "mouse"];
 
   for(var s=0; s<sources.length; s++) {
     // update the src or srcset urls
@@ -39,7 +37,6 @@ function lazyLoad(elements) {
     };
   });
 };
-
 
 // Set up the intersection observer to detect when to define
 // and load the real image source

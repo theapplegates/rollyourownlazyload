@@ -1,7 +1,12 @@
 // Breakpoints
-$bp-narrow: "(min-width: 400px)";
-$bp-mid: "(min-width: 740px)";
-$bp-wide: "(min-width: 1200px)";
+$bp-mouse: "(min-width: 150px)";
+$bp-camping: "(min-width: 200px)";
+$bp-car: "(min-width: 400px)";
+$bp-bird: "(min-width: 740px)";
+$bp-mars: "(min-width: 1024px)";
+$bp-red: "(min-width: 1200px)";
+$bp-wow: "(min-width: 1800px)";  // Changed from 2150px to 1800px
+
 
 // Colours
 $page-color: #fff;

@@ -3,10 +3,8 @@
   publish = "dist"
   NODE_ENV = "10.15.3"
 
-
 [dev]
   command = "yarn run start"
-
 
 [[redirects]]
   from = "/images/tiny/*"
@@ -14,18 +12,38 @@
   status = 200
 
 [[redirects]]
-  from = "/images/small/*"
-  to = "/.netlify/images/?w=500&fit=cover&url=/images/:splat"
+  from = "/images/mouse/*"
+  to = "/.netlify/images/?w=150&fit=cover&url=/images/:splat"
   status = 200
 
 [[redirects]]
-  from = "/images/medium/*"
-  to = "/.netlify/images/?w=600&fit=cover&url=/images/:splat"
+  from = "/images/camping/*"
+  to = "/.netlify/images/?w=200&fit=cover&url=/images/:splat"
   status = 200
 
 [[redirects]]
-  from = "/images/large/*"
-  to = "/.netlify/images/?w=700&fit=cover&url=/images/:splat"
+  from = "/images/car/*"
+  to = "/.netlify/images/?w=400&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/bird/*"
+  to = "/.netlify/images/?w=740&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/mars/*"
+  to = "/.netlify/images/?w=1024&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/red/*"
+  to = "/.netlify/images/?w=1200&fit=cover&url=/images/:splat"
+  status = 200
+
+[[redirects]]
+  from = "/images/wow/*"
+  to = "/.netlify/images/?w=1800&fit=cover&url=/images/:splat"
   status = 200
 
 [[redirects]]
