@@ -1,3 +1,21 @@
 {
-	"siteId": "9b92cf5e-5161-406d-8785-6eaf5a04a241"
+	"siteId": "44e26ad2-7283-4e86-b6fc-69e35c1e0fc4",
+	"geolocation": {
+		"data": {
+			"city": "Cincinnati",
+			"country": {
+				"code": "US",
+				"name": "United States"
+			},
+			"subdivision": {
+				"code": "OH",
+				"name": "Ohio"
+			},
+			"timezone": "America/New_York",
+			"latitude": 39.1671,
+			"longitude": -84.5422,
+			"postalCode": "45223"
+		},
+		"timestamp": 1730371214017
+	}
 }
