@@ -6,7 +6,7 @@ layout: default
 Take a look at [the code on GitHub]({{ pkg.repository.url }}), or read on, for more explanation and examples.
 
 {% set somePhotos = [
-  {url: "natalya-letunova-c_unsplash.jxl", credit: "Natalya Letunova", creditURL: "https://unsplash.com/photos/a-squirrel-sitting-on-the-ground-in-the-woods-c_KfK8v9aQ4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"}
+  {url: "natalya-letunova-c_unsplash.jpg", credit: "Natalya Letunova", creditURL: "https://unsplash.com/photos/a-squirrel-sitting-on-the-ground-in-the-woods-c_KfK8v9aQ4?utm_content=creditShareLink&utm_medium=referral&utm_source=unsplash"}
 ] %}
 <section class="post-teaser">
 {%- for photo in somePhotos %}
@@ -42,10 +42,10 @@ The [redirects]({{ pkg.repository.url }}/blob/master/netlify.toml) and transform
 These images have been added to the page in various sizes, using the picture element with multiple image sources.
 
 {% set somePhotos = [
-  {url: "rikke-hembre-unsplash.jxl", credit: "Charlota Blunarova", creditURL: "https://unsplash.com/photos/of4r2gHpCqU"},
-  {url: "samsung-memory-unsplash.jxl", credit: "Jesse Orrico", creditURL: "https://unsplash.com/photos/5xWf-gE_45U"},
-  {url: "tiffany-longeway-unsplash.jxl", credit: "Youjeen Cho", creditURL: "https://unsplash.com/photos/kNxB07EA9r4"},
-  {url: "enzo-lo-presti-unsplash.jxl", credit: "Chris Meads", creditURL: "https://unsplash.com/photos/9FidI-IQxwY"}
+  {url: "rikke-hembre-unsplash.jpg", credit: "Charlota Blunarova", creditURL: "https://unsplash.com/photos/of4r2gHpCqU"},
+  {url: "samsung-memory-unsplash.jpg", credit: "Jesse Orrico", creditURL: "https://unsplash.com/photos/5xWf-gE_45U"},
+  {url: "tiffany-longeway-unsplash.jpg", credit: "Youjeen Cho", creditURL: "https://unsplash.com/photos/kNxB07EA9r4"},
+  {url: "enzo-lo-presti-unsplash.jpg", credit: "Chris Meads", creditURL: "https://unsplash.com/photos/9FidI-IQxwY"}
 ] %}
 
 <section class="post-teaser">
