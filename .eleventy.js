@@ -38,6 +38,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addShortcode("lazypicture", require("./src/utils/lazy-picture.js"));
 
   // pass some assets right through
+  eleventyConfig.addPassthroughCopy("./src/site/images/.jxl");
   eleventyConfig.addPassthroughCopy("./src/site/images");
   eleventyConfig.addPassthroughCopy("./src/site/js/*.js");
 
